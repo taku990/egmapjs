@@ -13,7 +13,7 @@
 <script>"use strict"
 window.onload = function() {
 	var map = initMap('mapid')
-	map.setZoom(100)
+	map.setZoom(50)
 	map.panTo([ 35.007731,135.771789 ]) // 鯖江駅
 	map.addIcon(35.005481,135.771467 , "空", "images.png", 64)
 }
@@ -24,7 +24,7 @@ h1 { font-size: 5vw; margin: 0; }
 #mapid { height: 60vh; }
 </style></head><body>
 
-<h1>鴨川ライブマップ</h1>
+<h1>シェアかも　ライブマップ</h1>
 <div id="mapid"></div>
 
 <img id=qrcode><script>addEventListener("load", () => qrcode.src = "https://chart.apis.google.com/chart?chs=140x140&cht=qr&chl=" + encodeURIComponent(document.location))</script><br>
